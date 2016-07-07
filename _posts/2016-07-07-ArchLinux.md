@@ -83,7 +83,8 @@ categories: archlinux
  
 ## 2.	桌面化安装
 
-<a name="no3"/>
+<a name="no3"/>  
+
 ## 3.	常用软件补全
 
 ## 4.	美化
