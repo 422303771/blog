@@ -5,8 +5,6 @@ date:   2016-07-07 14:30:45 +0800
 categories: archlinux  
 ---
 
-###  {{site.time}}
-
 ## 1.	基本系统安装
 
 ### 1.1.	Arch Linux镜像[下载](https://www.archlinux.org/download/)
@@ -80,3 +78,6 @@ categories: archlinux
 
 ## 5.	开发环境搭建
 
+{{page.previous}}
+
+{{page.next}}
