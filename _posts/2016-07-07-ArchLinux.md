@@ -91,4 +91,4 @@ categories: archlinux
 
 ## 5.	开发环境搭建
 
-[go]({{site.url}})
+[go]({{ site.url }}/blog)
