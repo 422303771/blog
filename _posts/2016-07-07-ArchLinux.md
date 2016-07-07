@@ -5,8 +5,14 @@ date:   2016-07-07 14:50:45 +0800
 categories: archlinux
 ---
 
-Arch Linux  安装指南
-===========
+# Arch Linux  安装指南
+## Arch Linux  安装指南
+### Arch Linux  安装指南
+#### Arch Linux  安装指南
+##### Arch Linux  安装指南
+###### Arch Linux  安装指南
+####### Arch Linux  安装指南
+
 
 ## 1.	基本系统安装
 
@@ -20,6 +26,7 @@ Arch Linux  安装指南
 > * 设定任意 Linux 64位虚拟机
 > * 内存2G，硬盘20G
 > * 挂载镜像光盘
+> 
 > #### 开始安装
 
 #### 1.2.2.	实体机  
