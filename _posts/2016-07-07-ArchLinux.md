@@ -5,7 +5,18 @@ date:   2016-07-07 14:30:45 +0800
 categories: archlinux  
 ---
 
+[基本系统安装](#no1)
+
+[Arch Linux镜像下载](#no2)
+
+[常用软件补全](#no3)
+
+
+<a name="no1"/>
+
 ## 1.	基本系统安装
+
+<a name="no2"/>
 
 ### 1.1.	Arch Linux镜像[下载](https://www.archlinux.org/download/)
 
@@ -72,12 +83,10 @@ categories: archlinux
  
 ## 2.	桌面化安装
 
+<a name="no3"/>
 ## 3.	常用软件补全
 
 ## 4.	美化
 
 ## 5.	开发环境搭建
 
-{{page.previous}}
-
-{{page.next}}
