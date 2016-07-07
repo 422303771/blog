@@ -1,9 +1,11 @@
 ---
 layout: post  
 title:  "Arch Linux  安装指南"  
-date:   2016-07-07 14:50:45 +0800  
+date:   2016-07-07 14:30:45 +0800
 categories: archlinux  
 ---
+
+###  {{site.time}}
 
 ## 1.	基本系统安装
 
