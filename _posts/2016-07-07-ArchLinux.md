@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Arch Linux  安装指南"
 date:   2016-07-07 14:50:45 +0800
 categories: archlinux
 ---
