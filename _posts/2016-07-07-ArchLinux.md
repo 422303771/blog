@@ -6,15 +6,21 @@ categories: archlinux
 ---
 
 # Arch Linux  安装指南
+
 ## 1.	基本系统安装
+
 ### 1.1.	Arch Linux镜像[下载](https://www.archlinux.org/download/)
+
 ### 1.2.	安装
+
 #### 1.2.1.	VWmare  
+
 > #### 基本安装设定  
 > * 设定任意 Linux 64位虚拟机
 > * 内存2G，硬盘20G
 > * 挂载镜像光盘
 > #### 开始安装
+
 #### 1.2.2.	实体机  
 
 	# loadkeys us                                // 设置键盘
@@ -66,7 +72,10 @@ categories: archlinux
 自动化安装设置工具[Archlinux U Install](https://github.com/helmuthdu/aui)
  
 ## 2.	桌面化安装
+
 ## 3.	常用软件补全
+
 ## 4.	美化
+
 ## 5.	开发环境搭建
 
