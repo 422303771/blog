@@ -10,7 +10,7 @@ title: 记录
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   记录下关于程序的一切
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://422303771.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  422303771
