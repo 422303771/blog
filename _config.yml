@@ -11,7 +11,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   记录下关于程序的一切
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://422303771.github.io/blog" # the base hostname & protocol for your site
+url: "http://422303771.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  422303771
 
