@@ -5,6 +5,9 @@ date:   2016-07-12 23:30:45 +0800
 categories: ubuntu 
 ---
 
+* TOC
+{:toc}
+
 # zsh plugin 
 
 ### zsh tmux 

@@ -5,18 +5,12 @@ date:   2016-07-07 14:30:45 +0800
 categories: archlinux  
 ---
 
-[基本系统安装](#no1)
+* TOC
+{:toc}
 
-[Arch Linux镜像下载](#no2)
-
-[常用软件补全](#no3)
-
-
-<a name="no1"/>
 
 ## 1.	基本系统安装
 
-<a name="no2"/>
 
 ### 1.1.	Arch Linux镜像[下载](https://www.archlinux.org/download/)
 
@@ -24,12 +18,12 @@ categories: archlinux
 
 #### 1.2.1.	VWmare  
 
-> #### 基本安装设定  
-> * 设定任意 Linux 64位虚拟机
-> * 内存2G，硬盘20G
-> * 挂载镜像光盘
-> 
-> #### 开始安装
+> **基本安装设定**   
+>
+> * 设定任意 Linux 64位虚拟机  
+> * 内存2G，硬盘20G  
+> * 挂载镜像光盘  
+
 
 #### 1.2.2.	实体机  
 
@@ -83,12 +77,9 @@ categories: archlinux
  
 ## 2.	桌面化安装
 
-<a name="no3"/>  
-
 ## 3.	常用软件补全
 
 ## 4.	美化
 
 ## 5.	开发环境搭建
 
-[go]({{ site.url }}/blog)

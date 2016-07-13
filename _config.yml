@@ -17,3 +17,7 @@ github_username:  422303771
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+    input: GFM
+highlighter: rouge
