@@ -22,6 +22,6 @@ kramdown:
     input: GFM
 highlighter: rouge
 
-paginate: 3
+paginate: 7
 paginate_path: "/page/:num"
 gems: [jekyll-paginate]
