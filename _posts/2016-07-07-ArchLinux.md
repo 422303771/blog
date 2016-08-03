@@ -5,7 +5,8 @@ date: '2016-07-07 14:30:45 +0800'
 categories: archlinux
 ---
 
-- TOC {:toc}
+* TOC
+{:toc}
 
 ## 1\. 基本系统安装
 
