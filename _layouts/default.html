@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <html>
 
   {% include head.html %}
@@ -28,7 +38,7 @@
               {% if page == paginator.page %}
                 <li class="active"><a>{{ page }}</a></li>
               {% elsif page == 1 %}
-                <li><a href="{{ site.baseurl }}">{{ page }}</a></li>
+                <li><a href="{{  site.baseurl }}">{{ page }}</a></li>
               {% else %}
                 <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
               {% endif %}
@@ -47,8 +57,6 @@
 
       </div>
     </div>
-
-
 
 
     {% include footer.html %}
