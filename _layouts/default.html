@@ -1,14 +1,5 @@
 <!DOCTYPE html>
 
-
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <html>
 
   {% include head.html %}
@@ -27,30 +18,32 @@
         {% endfor %}
         <!-- fix page1 链接 -->
           {% if paginator.total_pages > 1 %}
-          <ul class="pagination">
+          <div class="pagination">
+
+
             {% if paginator.previous_page %}
-              <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+              <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
             {% else %}
-              <li><span>&laquo; Prev</span></li>
+              <span>&laquo; Prev</span>
             {% endif %}
 
             {% for page in (1..paginator.total_pages) %}
               {% if page == paginator.page %}
-                <li class="active"><a>{{ page }}</a></li>
+                <li class="active"><a>{{ page }}</a>
               {% elsif page == 1 %}
-                <li><a href="{{  site.baseurl }}">{{ page }}</a></li>
+                <a href="{{  site.baseurl }}">{{ page }}</a>
               {% else %}
-                <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
               {% endif %}
             {% endfor %}
 
             {% if paginator.next_page %}
-              <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+              <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
             {% else %}
-              <li><span>Next &raquo;</span></li>
+              <span>Next &raquo;</span>
             {% endif %}
-
           </ul>
+          </div>
           {% endif %}
 
     </div>
