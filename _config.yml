@@ -24,4 +24,6 @@ highlighter: rouge
 
 paginate: 7
 paginate_path: "/page/:num"
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jemoji
